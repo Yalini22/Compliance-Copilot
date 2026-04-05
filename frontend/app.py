@@ -7,7 +7,7 @@ import pandas as pd
 import plotly.express as px
 import time
 
-from backend.main import process_transactions   
+from backend.main import process_transactions  
 from backend.kyc_extraction import kyc_extraction_agent
 from backend.kyc_matching import kyc_matching_agent
 from backend.aml_engine import aml_llm_agent, aml_batch_agent
